@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Styles from "./Navbar.module.css"
 
 const Navbar = () => {
@@ -7,7 +8,9 @@ const Navbar = () => {
         <div className={Styles.maindiv}>
             <div style={{display:"flex",gap:"30px"}}>
               <div style={{marginTop:"21px"}}>
+                <NavLink to='/'>
                 <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2"  />
+                </NavLink>
     
               </div>
               <div style={{marginTop:"26px"}}>

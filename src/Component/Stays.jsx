@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import Navbar from "../Navbar/Navbar"
 import Style from "../Component/Component.module.css"
 import { Input,InputGroup,InputLeftElement } from '@chakra-ui/react'
@@ -18,6 +18,7 @@ import {
     useDisclosure
   } from '@chakra-ui/react'
 import Usecontext from './Usecontext'
+import { calender } from './Concate'
 
 
 
@@ -26,7 +27,9 @@ const Stays = () => {
    
     
     const { isOpen, onOpen, onClose } = useDisclosure()
-   
+   const {setData}=useContext(calender)
+   setData(value.toDateString())
+  
   return (
     <div>
      
@@ -137,7 +140,9 @@ const Stays = () => {
            </div>
                <div>
                 <div style={{marginTop:"20px",marginLeft:"40%"}}>
+                    <NavLink to='/hotel'>
                 <Button colorScheme='blue' size='lg' w="200px">Search</Button>
+                </NavLink>
                 </div>
                </div>
             </div>
