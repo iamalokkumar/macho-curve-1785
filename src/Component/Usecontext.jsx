@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useContext} from 'react'
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { Button } from '@chakra-ui/react'
@@ -12,14 +12,15 @@ import {
     ModalCloseButton,
     useDisclosure
   } from '@chakra-ui/react'
+  import { calender1 } from './Concate1'
 
 
 const Usecontext = () => {
     const [value, onChange] = useState(new Date());
-   
+    const {setData1}=useContext(calender1)
     
     const { isOpen, onOpen, onClose } = useDisclosure()
-   
+     setData1(value.toDateString())
   return (
     <div>
          <p onClick={onOpen}>Check-out</p>
