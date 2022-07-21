@@ -493,6 +493,7 @@ See properties with amenities to help you work comfortably, like WiFi and breakf
               ))}
            
         </div>
+        
         <div style={{width:"220px",marginTop:"20px",marginLeft:"20px"}}>
             <div>
                 <img src="https://tpc.googlesyndication.com/simgad/3300578970834289968?" style={{width:"100%",height:"600px"}}  />
@@ -502,7 +503,92 @@ See properties with amenities to help you work comfortably, like WiFi and breakf
                <img src="https://tpc.googlesyndication.com/simgad/4652945743188291985?" style={{width:"100%",height:"600px"}}/>
             </div>
         </div>
-        </div>  // main flex div
+        </div>  
+        <div>
+
+            <div>
+            <div style={{display:"flex"}} className={Style.main2}>
+            <div style={{height:"100%",width:"30%"}}>
+            <img src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_ROME_iStock_72dpi.jpg" style={{height:"100%",borderRadius:"8px"}}/>
+            </div>
+            <div  style={{height:"100%",width:"40%",marginLeft:"40px"}}>
+            <h1 style={{fontSize:"30px",fontWeight:"bolder"}}>Our app takes you further</h1>
+                    <p>When you book on the app you can save up to 10% on select hotels while earning double the points with every booking. With these app deals you'll save even more on trips, and that means you can take more trips, and manage it all on the go.</p>
+                       <br />
+                       <p style={{fontWeight:"bolder"}}>Text yourself a download link for easy access</p>
+                       <div style={{display:"flex",marginTop:"20px"}}>
+                        <div>
+                            <Input h="50px" w="150px"  placeholder='Country Code'></Input>
+                        </div>
+                        <div style={{marginLeft:"20px"}}>
+                        <Input h="50px" w="150px"  placeholder='Phone'></Input>
+                        </div>
+                        <div>
+                        <Button colorScheme='blue' size='lg' w="150px" ml="10px" >Get The App</Button>
+                        </div>
+                       </div>
+                       <p style={{fontSize:"12px",marginTop:"10px"}}>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+                       
+            </div>
+            <div style={{height:"200px",width:"200px",marginLeft:"40px",marginTop:"40px"}}>
+                   <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/27_QR_FOOTER_BNA_HP.png" />
+                   <p style={{marginLeft:"35px"}}><b>Scan the QR code</b></p>
+                </div>
+            </div>
+            </div>
+        <div style={{marginTop:"40px"}}>
+            <div style={{display:"flex"}}>
+                <div style={{marginLeft:"135px"}}>
+                    <img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg" />
+
+                </div>
+                <div style={{marginLeft:"90px"}}>
+                    <p style={{fontWeight:"bolder"}}>Company</p>
+                    <br />
+                    <p className={Style.f1} style={{color:"blue"}}>About us</p>
+                    <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Jobs</p>
+                    <p className={Style.f1} style={{color:"blue",marginTop:"10px"}} >List your property</p>
+                    <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Partnerships</p>
+                </div>
+                <div style={{marginLeft:"90px"}}>
+                <p style={{fontWeight:"bolder"}}>Explore</p>
+                <br />
+                <p className={Style.f1} style={{color:"blue"}}>India travel guide</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Hotels in India</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Holiday rentals in india</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Holiday Packages in india</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Domestic Flights</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Car hire in india</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>All accommodation in india</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Travel blog</p>
+                </div>
+                <div style={{marginLeft:"90px"}}>
+                <p style={{fontWeight:"bolder"}}>Policies</p>
+                <br />
+                <p className={Style.f1} style={{color:"blue"}}>Privacy statement</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Terms of use</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Vrbo terms and conditions</p>
+                </div>
+                <div style={{marginLeft:"90px"}}>
+                <p style={{fontWeight:"bolder"}}>Help</p>
+                <br />
+                <p className={Style.f1} style={{color:"blue"}} >Support</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Change or cancel your booking</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Refund process and timelines</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>Book a flight using an airline credit</p>
+                <p className={Style.f1} style={{color:"blue",marginTop:"10px"}}>International travel documents</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div style={{width:"80%",border:"1px solid black",margin:"auto",marginTop:"20px",borderTop:"none"}}></div>
+        <div style={{height:"60px",width:"200px",margin:"auto",marginTop:"60px"}}>
+            <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" />
+        </div>
+        <div style={{marginLeft:"140px"}}>
+            <p style={{fontSize:"13px"}}>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+
+        </div>
     </div>
   )
 }

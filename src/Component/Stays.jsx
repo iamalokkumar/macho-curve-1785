@@ -168,11 +168,13 @@ const Stays = () => {
                         <Button colorScheme='blue' size='lg' w="150px" ml="10px" >Get The App</Button>
                         </div>
                        </div>
-                       <p style={{fontSize:"12px",marginTop:"10px"}}>By providing your number, you agree to receive a one-time automated text message with a link to get the app. Standard text message rates may apply.</p>
+                      
+                      
 
                 </div>
                 <div style={{height:"200px",width:"200px",marginLeft:"40px",marginTop:"40px"}}>
                    <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/27_QR_FOOTER_BNA_HP.png" />
+                   <p style={{marginLeft:"35px"}}><b>Scan the QR code</b></p>
                 </div>
             </div>
 
