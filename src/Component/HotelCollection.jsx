@@ -586,7 +586,7 @@ See properties with amenities to help you work comfortably, like WiFi and breakf
             <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" />
         </div>
         <div style={{marginLeft:"140px"}}>
-            <p style={{fontSize:"13px"}}>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.</p>
+            <p style={{fontSize:"13px"}}>© 2022 Expedia, Inc., an Expedia Group company / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte. Ltd. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc..</p>
 
         </div>
     </div>
