@@ -111,3 +111,47 @@
     height: 200px;
     width: 300px;
 }
+.picdiv{
+    height:400px;
+    width:65%;
+   
+    margin-left: 200px;
+}
+.g1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,166px);
+}
+
+.see:hover{
+    text-decoration: underline;
+
+}
+.Seeall{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.All{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width:65%;
+}
+.rad{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+.policy{
+
+    width:1090px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left: 200px;
+    display: flex;
+    gap:150px;
+    border-radius: 10px;
+}
+.main6{
+    height: 320px;
+    width:72%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left: 13%;
+    margin-top: 50px;
+    border-radius: 10px; 
+}
