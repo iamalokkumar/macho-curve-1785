@@ -19,20 +19,20 @@ const HotelCollection = () => {
 
     let  Hotels=[
 
-        {name:"ITC Grand Goa",place:"Arossim",Rating:4.5,reviews:"Very good (113 reviews)",photo:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/31000000/30790000/30783800/30783748/b015ad4a_b.jpg",price:1200},
-        {name:"Double tree By Hilton Goa",place:"Chimbel",Rating:4.2,reviews:"Very good (52 reviews)",photo:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/22000000/21430000/21429100/21429037/460fe046_b.jpg",price:1440},
-        {name:"Hyatt Centric Cndolim Goa",place:"Candolim",Rating:4.2,reviews:"Very good (110 reviews)",photo:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/13000000/12920000/12918300/12918286/0e484b93_b.jpg",price:2000},
-        {name:"Radison Goa Baga",place:"Baga",Rating:5,reviews:"Very good (120 reviews)",photo:"https://images.trvl-media.com/hotels/71000000/70100000/70098400/70098316/add0e86c.jpg?impolicy=resizecrop&rw=455&ra=fit",price:3200},
-       {name:"Taz Exotica Resort And Spa,Goa",place:"Benaulim",Rating:5,reviews:"Very good (120 reviews)",photo:"https://images.trvl-media.com/hotels/1000000/670000/663700/663615/5bb5e9f8.jpg?impolicy=resizecrop&rw=455&ra=fit",price:1000},
-        {name:"The Leela Goa",place:"Cavelossim",Rating:4.0,reviews:"Very good (109 reviews)",photo:"https://images.trvl-media.com/hotels/1000000/440000/438400/438378/bdbe16ac.jpg?impolicy=resizecrop&rw=455&ra=fit",price:4000},
-        {name:"Goa Marriot Resort & Spa",place:"Panaji",Rating:4.3,reviews:"Very good (130 reviews)",photo:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/530000/523000/522986/546c8e4c_b.jpg",price:3220},
-        {name:"ROSA SALVO",place:"Anjuna",Rating:3.5,reviews:"Very good (13 reviews)",photo:"https://images.trvl-media.com/hotels/83000000/82970000/82968400/82968322/a2fdaaf6.jpg?impolicy=resizecrop&rw=455&ra=fit",price:3000},
-        {name:"W Goa",place:"Chapora",Rating:4.9,reviews:"Very good (113 reviews)",photo:"https://images.trvl-media.com/hotels/16000000/15440000/15439200/15439133/75d1619b.jpg?impolicy=resizecrop&rw=455&ra=fit",price:2360},
-        {name:"Vivanta Goa,Panji",place:"Panji",Rating:4.5,reviews:"Very good (115 reviews)",photo:"https://images.trvl-media.com/hotels/3000000/2710000/2703400/2703358/00a8ece2.jpg?impolicy=resizecrop&rw=455&ra=fit",price:4000},
-        {name:"Azaya Beach,Goa",place:"Benaulim",Rating:5,reviews:"Very good (120 reviews)",photo:"https://images.trvl-media.com/hotels/25000000/24050000/24041500/24041444/e8849892.jpg?impolicy=resizecrop&rw=455&ra=fit",price:1500},
-        {name:"Grand Hyatt,Goa",place:"Bambolim",Rating:4.2,reviews:"Very good (113 reviews)",photo:"https://images.trvl-media.com/hotels/5000000/4060000/4051300/4051243/3ddf6bab.jpg?impolicy=resizecrop&rw=455&ra=fit",price:1800},
-        {name:"Coconut creek",place:"Bogmolo",Rating:4.5,reviews:"Very good (113 reviews)",photo:"https://images.trvl-media.com/hotels/7000000/6250000/6244400/6244326/aee15893.jpg?impolicy=resizecrop&rw=455&ra=fit",price:1900},
-        {name:"Sterling Goa",place:"Versa",Rating:5,reviews:"Very good (113 reviews)",photo:"https://images.trvl-media.com/hotels/18000000/17440000/17437100/17437081/e4c80a1d.jpg?impolicy=resizecrop&rw=455&ra=fit",price:3200}
+        {name:"ITC Grand Goa",place:"Arossim",Rating:4.5,reviews:"Very good (113 reviews)",photo:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/31000000/30790000/30783800/30783748/b015ad4a_b.jpg",price:1200,id:1},
+        {name:"Double tree By Hilton Goa",place:"Chimbel",Rating:4.2,reviews:"Very good (52 reviews)",photo:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/22000000/21430000/21429100/21429037/460fe046_b.jpg",price:1440,id:2},
+        {name:"Hyatt Centric Cndolim Goa",place:"Candolim",Rating:4.2,reviews:"Very good (110 reviews)",photo:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/13000000/12920000/12918300/12918286/0e484b93_b.jpg",price:2000,id:3},
+        {name:"Radison Goa Baga",place:"Baga",Rating:5,reviews:"Very good (120 reviews)",photo:"https://images.trvl-media.com/hotels/71000000/70100000/70098400/70098316/add0e86c.jpg?impolicy=resizecrop&rw=455&ra=fit",price:3200,id:4},
+       {name:"Taz Exotica Resort And Spa,Goa",place:"Benaulim",Rating:5,reviews:"Very good (120 reviews)",photo:"https://images.trvl-media.com/hotels/1000000/670000/663700/663615/5bb5e9f8.jpg?impolicy=resizecrop&rw=455&ra=fit",price:1000,id:5},
+        {name:"The Leela Goa",place:"Cavelossim",Rating:4.0,reviews:"Very good (109 reviews)",photo:"https://images.trvl-media.com/hotels/1000000/440000/438400/438378/bdbe16ac.jpg?impolicy=resizecrop&rw=455&ra=fit",price:4000,id:6},
+        {name:"Goa Marriot Resort & Spa",place:"Panaji",Rating:4.3,reviews:"Very good (130 reviews)",photo:"https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/530000/523000/522986/546c8e4c_b.jpg",price:3220,id:7},
+        {name:"ROSA SALVO",place:"Anjuna",Rating:3.5,reviews:"Very good (13 reviews)",photo:"https://images.trvl-media.com/hotels/83000000/82970000/82968400/82968322/a2fdaaf6.jpg?impolicy=resizecrop&rw=455&ra=fit",price:3000,id:8},
+        {name:"W Goa",place:"Chapora",Rating:4.9,reviews:"Very good (113 reviews)",photo:"https://images.trvl-media.com/hotels/16000000/15440000/15439200/15439133/75d1619b.jpg?impolicy=resizecrop&rw=455&ra=fit",price:2360,id:9},
+        {name:"Vivanta Goa,Panji",place:"Panjim",Rating:4.5,reviews:"Very good (115 reviews)",photo:"https://images.trvl-media.com/hotels/3000000/2710000/2703400/2703358/00a8ece2.jpg?impolicy=resizecrop&rw=455&ra=fit",price:4000,id:10},
+        {name:"Azaya Beach,Goa",place:"Benaulims",Rating:5,reviews:"Very good (120 reviews)",photo:"https://images.trvl-media.com/hotels/25000000/24050000/24041500/24041444/e8849892.jpg?impolicy=resizecrop&rw=455&ra=fit",price:1500,id:11},
+        {name:"Grand Hyatt,Goa",place:"Bambolim",Rating:4.2,reviews:"Very good (113 reviews)",photo:"https://images.trvl-media.com/hotels/5000000/4060000/4051300/4051243/3ddf6bab.jpg?impolicy=resizecrop&rw=455&ra=fit",price:1800,id:12},
+        {name:"Coconut creek",place:"Bogmolo",Rating:4.5,reviews:"Very good (113 reviews)",photo:"https://images.trvl-media.com/hotels/7000000/6250000/6244400/6244326/aee15893.jpg?impolicy=resizecrop&rw=455&ra=fit",price:1900,id:13},
+        {name:"Sterling Goa",place:"Versa",Rating:5,reviews:"Very good (113 reviews)",photo:"https://images.trvl-media.com/hotels/18000000/17440000/17437100/17437081/e4c80a1d.jpg?impolicy=resizecrop&rw=455&ra=fit",price:3200,id:14}
       ]
       let [collect,setCollect]=useState(Hotels)
       let myFun=(e)=>{
@@ -473,7 +473,8 @@ See properties with amenities to help you work comfortably, like WiFi and breakf
                 </div>
             </div>
               {collect.map((elem)=>(
-                    <div style={{display:"flex",marginTop:"15px"}}>
+                <NavLink to={elem.place}>
+                    <div style={{display:"flex",marginTop:"15px"}} key={elem.id}>
 
                
                     <div>
@@ -489,7 +490,8 @@ See properties with amenities to help you work comfortably, like WiFi and breakf
                         <p style={{fontWeight:"bold",fontSize:"28px"}}>Price: {elem.price}/-</p>
                     </div>
                     
-                    </div> //map div
+                    </div> 
+                    </NavLink>
               ))}
            
         </div>
