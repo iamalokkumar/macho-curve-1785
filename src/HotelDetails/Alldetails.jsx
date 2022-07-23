@@ -1,9 +1,15 @@
 import { Button, textDecoration,Input } from '@chakra-ui/react'
-import React from 'react'
+import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 import Style from "../Component/Component.module.css"
 
+
+
 const Alldetails = () => {
+
+
+
+
   return (
     <div>
         <div style={{display:"flex",marginLeft:"200px",justifyContent:"space-between"}} className={Style.All}>
@@ -16,7 +22,9 @@ const Alldetails = () => {
                 <p>Reviews</p>
             </div>
             <div>
-                <Button color='white' bg='blue' mr='10px'>Reserve a room</Button>
+                <NavLink to='/login'>
+                <Button color='white' bg='blue' mr='10px' >Reserve a room</Button>
+                </NavLink>
             </div>
         </div>
         <div style={{display:"flex",marginLeft:"200px",width:"65%",height:"600px"}} className={Style.Seeall}>
