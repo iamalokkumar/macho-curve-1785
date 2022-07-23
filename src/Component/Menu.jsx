@@ -17,6 +17,8 @@ import Chimbel from "../HotelDetails/Chimbel"
 import Panaji from "../HotelDetails/Panaji"
 import Versa from "../HotelDetails/Versa"
 import Panjim from "../HotelDetails/Panjim"
+import Login from '../Login/Login'
+import Success from '../Login/Success'
 
 
 const Menu = () => {
@@ -40,6 +42,8 @@ const Menu = () => {
              <Route path='hotel/Panaji' element={<Panaji/>}/> 
              <Route path='hotel/Versa' element={<Versa/>}/> 
              <Route path='hotel/Panjim' element={<Panjim/>}/> 
+             <Route path='/login' element={<Login/>}/>
+             <Route path='/success' element={<Success/>}/>
         </Routes>
     </div>
   )
