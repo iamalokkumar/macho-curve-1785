@@ -12,9 +12,9 @@ Vercel Link: https://macho-curve-1785.vercel.app/
 <img src="https://screenlane.com/media/screenshots/expedia-ios-thumbnail.jpg" style="padding-left:15%" width="70%" height="300px" />
 
 
-As we are still in the learning phase, the journey of building this website was very nice. We realized we could’ve achieved even more precision in building the website, but time was running out.
+My Role In This ProJect -   I have showed the basic workflow of the website e.g. homepage, checkout page, hotel details page,filtering functionalities, etc.
 
-We still managed to pull this job to satisfactory results. Everyone was happy about it, it was like working hard on the farm, and then reaping the benefits of the tasty grains. The feeling of completing the project was very satisfying. Hard work pays off.
+TECH STACK    -  REACTJS, HTML, CSS, JAVASCRIPT, REDUX
 
 Hope you liked reading this blog post till this end.
 
